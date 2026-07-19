@@ -4,12 +4,12 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 export default defineConfig({
+  base: "/engineering-portfolio/",
+
   plugins: [
     react(),
     tailwindcss(),
   ],
-
-  base: "/engineering-portfolio/",
 
   resolve: {
     alias: {
