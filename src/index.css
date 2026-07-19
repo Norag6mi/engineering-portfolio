@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@import "@fontsource/inter";
+@import "@fontsource/space-grotesk";
+@import "@fontsource/jetbrains-mono";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-background: #0b1120;
+  --color-surface: #111827;
+  --color-surface-hover: #1b2433;
+  --color-border: #1f2937;
+
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+
+  --color-accent: #22c55e;
+
+  --color-text: #f8fafc;
+  --color-muted: #94a3b8;
+
+  --radius-card: 1rem;
+  --radius-button: 0.75rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-text font-sans antialiased;
+}
+
+* {
+  @apply border-border;
+}
