@@ -1,4 +1,5 @@
 import type { Project } from "@/types/project";
+import { asset } from "@/utils/assets";
 
 export const projects: Project[] = [
   {
@@ -45,58 +46,58 @@ export const projects: Project[] = [
     media: [
     {
         type: "image",
-        src: "/images/launcher/launcher.png",
+        src: asset("/images/launcher/launcher.png"),
         title: "Launcher Home"
     },
 
     {
         type: "video",
-        src: "/videos/launcher/launcher_setup.mp4",
+        src: asset("/videos/launcher/launcher_setup.mp4"),
         title: "Application setup and installation demo"
     },
 
     {
         type: "image",
-        src: "/images/launcher/launcher_signuppage.png",
+        src: asset("/images/launcher/launcher_signuppage.png"),
         title: "Sign Up"
     },
 
     {
         type: "image",
-        src: "/images/launcher/launcher_loginpage.png",
+        src: asset("/images/launcher/launcher_loginpage.png"),
         title: "Login"
     },
     {
         type: "image",
-        src: "/images/launcher/launcher_downloadlocation.png",
+        src: asset("/images/launcher/launcher_downloadlocation.png"),
         title: "Download Location"
     },
     {
         type: "image",
-        src: "/images/launcher/launcher_downloadprogress1.png",
+        src: asset("/images/launcher/launcher_downloadprogress1.png"),
         title: "Download Progress"
     },
     {
         type: "image",
-        src: "/images/launcher/launcher_downloadprogress2.png",
+        src: asset("/images/launcher/launcher_downloadprogress2.png"),
         title: "Download Progress"
     },
 
     {
         type: "video",
-        src: "/videos/launcher/launcher_utility.mp4",
+        src: asset("/videos/launcher/launcher_utility.mp4"),
         title: "Launcher Utility Features"
     },
 
     {
         type: "image",
-        src: "/images/launcher/launcher_patchnotes.png",
+        src: asset("/images/launcher/launcher_patchnotes.png"),
         title: "Patch Notes"
     },
 
     {
         type: "image",
-        src: "/images/launcher/launcher_logoutoption.png",
+        src: asset("/images/launcher/launcher_logoutoption.png"),
         title: "logout option"
     }
   ]
@@ -146,61 +147,61 @@ export const projects: Project[] = [
     media: [
       {
         type: "image",
-        src: "/images/NPC/npc.png",
+        src: asset("/images/NPC/npc.png"),
         title: "NPC Combat"
       },
 
       {
         type: "image",
-        src: "/images/NPC/npc_1.png",
+        src: asset("/images/NPC/npc_1.png"),
         title: "NPC Combat"
       },
 
       {
         type: "image",
-        src: "/images/NPC/npc_2.png",
+        src: asset("/images/NPC/npc_2.png"),
         title: "NPC Combat"
       },
 
       {
         type: "image",
-        src: "/images/NPC/npc_3.png",
+        src: asset("/images/NPC/npc_3.png"),
         title: "NPC Combat"
       },
 
       {
         type: "image",
-        src: "/images/NPC/npc_4.png",
+        src: asset("/images/NPC/npc_4.png"),
         title: "NPC Combat"
       },
 
       {
         type: "image",
-        src: "/images/NPC/npc_5.png",
+        src: asset("/images/NPC/npc_5.png"),
         title: "NPC Combat"
       },
 
       {
         type: "image",
-        src: "/images/NPC/npc_6.png",
+        src: asset("/images/NPC/npc_6.png"),
         title: "NPC Combat"
       },
 
       {
         type: "video",
-        src: "/videos/NPC/NPC_interfactioncombat.mp4",
+        src: asset("/videos/NPC/NPC_interfactioncombat.mp4"),
         title: "NPC Combat"
       },
 
       {
         type: "image",
-        src: "/images/NPC/npc_2.png",
+        src: asset("/images/NPC/npc_2.png"),
         title: "NPC Combat"
       },
 
       {
         type: "video",
-        src: "/videos/NPC/NPC_VSplayer.mp4",
+        src: asset("/videos/NPC/NPC_VSplayer.mp4"),
         title: "NPC Combat2"
       }
     ],
@@ -247,43 +248,43 @@ export const projects: Project[] = [
     media: [
       {
         type: "image",
-        src: "/images/VXR/VXR1.png",
+        src: asset("/images/VXR/VXR1.png"),
         title: "Visualizer XR"
       },
 
       {
         type: "image",
-        src: "/images/VXR/VXR2.png",
+        src: asset("/images/VXR/VXR2.png"),
         title: "Visualizer XR"
       },
 
       {
         type: "image",
-        src: "/images/VXR/VXR3.png",
+        src: asset("/images/VXR/VXR3.png"),
         title: "Visualizer XR"
       },
 
       {
         type: "image",
-        src: "/images/VXR/VXR4.png",
+        src: asset("/images/VXR/VXR4.png"),
         title: "Visualizer XR"
       },
 
       {
         type: "image",
-        src: "/images/VXR/VXR5.png",
+        src: asset("/images/VXR/VXR5.png"),
         title: "Visualizer XR"
       },
 
       {
         type: "image",
-        src: "/images/VXR/VXR6.png",
+        src: asset("/images/VXR/VXR6.png"),
         title: "Visualizer XR"
       },
 
       {
         type: "image",
-        src: "/images/VXR/VXR7.png",
+        src: asset("/images/VXR/VXR7.png"),
         title: "Visualizer XR"
       },
     ],
